@@ -2,6 +2,7 @@ def search_input(nums:list, target:int) -> int:
     left = 0  # Primeiro indice da lista
     right = len(nums) - 1  # Ultimo indice da lista
 
+    # Aplicando uma busca binária para achar o indice do target na lista:
     while left <= right:  # Enquanto o primeiro indice for menor ou igual ao ultimo
         mid = (left + right) // 2  # Calcula o indice do meio a cada loop
 
