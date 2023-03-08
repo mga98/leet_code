@@ -16,7 +16,7 @@ def longest_common_prefix(strs: list) -> str:
             # até o momento da atual iteração.
             return prefix
 
-    # Se nenhuma letra for adicionada a string, então ela é retornada vazia.
+    # Se nenhuma letra for adicionada a string prefix, então ela é retornada vazia.
     return prefix
 
 
